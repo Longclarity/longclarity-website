@@ -7,7 +7,6 @@
 @media(max-width:980px){.split-showcase,.split-showcase.reverse,.coach-heading-grid,.coach-showcase{grid-template-columns:1fr}.split-showcase.reverse .showcase-copy,.split-showcase.reverse .device-shot{grid-column:auto;grid-row:auto}.split-showcase.reverse .device-shot{order:2}.coach-flow{max-width:760px;margin:auto}.coach-list{justify-self:center}.wide-shot figcaption{align-items:flex-start;flex-direction:column;gap:4px}}
 @media(max-width:700px){.actual-product{min-height:540px}.hero-device{width:min(310px,88%)}.orbit-card{display:none}.split-showcase{gap:38px}.tall-shot{width:min(310px,92%)}.wide-gallery{gap:18px}.wide-shot{border-radius:18px}.wide-shot figcaption{padding:15px 17px}.coach-flow{grid-template-columns:1fr;gap:20px}.flow-arrow{transform:rotate(90deg);text-align:center;font-size:34px}.coach-step,.result-shot{width:min(330px,94%);justify-self:center}.coach-heading-grid{gap:18px}.showcase-copy h2,.coach-heading-grid h2{font-size:40px}}
 
-
-/* Brand masthead — added 2026-09-02 */
-.hero-masthead{display:flex;align-items:center;justify-content:center;gap:16px;padding:4px 0 44px}.hero-masthead-mark{width:72px;height:76px;object-fit:contain}.hero-masthead-wordmark{display:flex;align-items:baseline;font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,5vw,68px);font-weight:700;line-height:1;letter-spacing:-.045em}.hero-word-long{color:#0a2d5c}.hero-word-clarity{color:#079aa5}.hero-grid{align-items:center}
-@media(max-width:700px){.hero-masthead{gap:10px;padding:0 0 30px}.hero-masthead-mark{width:50px;height:53px}.hero-masthead-wordmark{font-size:42px}}
+/* Hero spacing refinement — 2026-09-02 */
+.hero{padding-top:46px}
+@media(max-width:640px){.hero{padding-top:34px}}

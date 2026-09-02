@@ -20,3 +20,6 @@ The homepage currently says **Coming Soon to the App Store**. Replace that eleme
 
 ## Screenshots
 The screenshots in `/screenshots` are the obfuscated demo household captures selected during pre-launch review. The Coach modeled-results image is intentionally cropped at the top to remove a transient capture artifact.
+
+
+2026-09-02 hero refinement: removed the added brand masthead and tightened the hero top spacing while preserving the existing eyebrow and headline.
