@@ -1,25 +1,29 @@
-# LongClarity Website — GitHub Pages Product Showcase
+# LongClarity website update
 
-This folder is a complete static website for `longclarity.com` / GitHub Pages.
+This folder is a complete replacement for the current static website.
 
-## Included
-- Marketing homepage using real LongClarity product screenshots
-- Support page using `support@longclarity.com`
-- Privacy Policy
-- Terms of Use
-- LongClarity brand assets and app artwork
-- `.nojekyll` for GitHub Pages
+## What changed
 
-## Publish to GitHub
-Upload the **contents of this folder** to the root of the `longclarity-website` repository so that `index.html` is at repository root.
+- Replaced all eight product screenshots with current captures from the same Karl and Kari demonstration plan.
+- Added a Retirement Modeling Report section using the first page of the supplied 17-page PDF.
+- Explained that Premium users can save, share, or print the report PDF.
+- Aligned homepage language with the in-app Plan Glossary, including Current Plan, Proposed Plan, Retirement Funding, Retirement Assets, Modeled Lifestyle Spending, Total Modeled Costs, Continuing Income, Asset Withdrawals, and Modeled Funding Through.
+- Corrected the Explore explanation so it accurately describes when a Proposed Plan changes the Current Plan.
 
-Then enable GitHub Pages from the `main` branch and root folder. Verify the temporary GitHub Pages URL first. After that, connect `longclarity.com` in GitHub Pages settings and update DNS. GitHub will manage the CNAME as part of the custom-domain setup.
+## Deploy
 
-## App Store
-The homepage currently says **Coming Soon to the App Store**. Replace that element with the official App Store link/button once the listing is live.
+Replace the repository's `index.html`, `styles.css`, `support.html`, `privacy.html`, `terms.html`, `assets/`, and `screenshots/` with the corresponding items in this folder. The support, privacy, terms, and brand files are unchanged copies from the live site; they are included so this folder can be deployed as a complete unit.
 
-## Screenshots
-The screenshots in `/screenshots` are the obfuscated demo household captures selected during pre-launch review. The Coach modeled-results image is intentionally cropped at the top to remove a transient capture artifact.
+The `extras/` folder contains three useful current captures that are not referenced by the homepage. It does not need to be deployed.
 
+## Screenshot mapping
 
-2026-09-02 hero refinement: removed the added brand masthead and tightened the hero top spacing while preserving the existing eyebrow and headline.
+- `dashboard.png` - current Dashboard and Retirement Modeling Report entry point
+- `retirement-story.png` - current Your Retirement Story screen
+- `retirement-funding.png` - current Retirement Funding chart and PDF / Print control
+- `retirement-assets.png` - current Retirement Assets chart and PDF / Print control
+- `explore-proposed.png` - Current Plan and Proposed Plan comparison
+- `coach-plays.png` - current Coach Plays menu
+- `what-would-it-take.png` - age-63 target screen
+- `coach-modeled-paths.png` - age-63 modeled result, cropped only to remove the translucent iPhone status area
+- `modeling-report.png` - page 1 rendered from the supplied Retirement Modeling Report PDF
